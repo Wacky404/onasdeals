@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 
-	"github.com/Wacky404/onasdeals/onas-backend/internal/env"
+	"github.com/Wacky404/onasdeals/onas-backend/internal/envs"
 )
 
 func main() {
 	cfg := config{
-		addr: env.GetString("ADDR", ":8080"),
+		addr: envs.GetString("ADDR", ":8080"),
 	}
 	app := &application{
 		config: cfg,
