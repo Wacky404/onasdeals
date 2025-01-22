@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-    "github.com/Wacky404/onasdeals/onas-backend/internal/env"
+
+	"github.com/Wacky404/onasdeals/onas-backend/internal/env"
 )
 
 func main() {
